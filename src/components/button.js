@@ -40,7 +40,7 @@ export default function Button({ value, className }) {
         }
         else if (value === '=') {
             let valueToBeEvalued = screen.value.replace('x', '*');
-            screen.value = eval(valueToBeEvalued);
+            screen.value = Number.isInteger(eval(valueToBeEvalued)) ? eval(valueToBeEvalued) : eval(valueToBeEvalued).toFixed(1);
         }
         else {
             screen.value = screen.value + value;
