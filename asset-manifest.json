@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/3-Themes-Calculator/static/js/main.4ddae02e.js",
+    "main.js": "/3-Themes-Calculator/static/js/main.00bad80c.js",
     "index.html": "/3-Themes-Calculator/index.html",
-    "main.4ddae02e.js.map": "/3-Themes-Calculator/static/js/main.4ddae02e.js.map"
+    "main.00bad80c.js.map": "/3-Themes-Calculator/static/js/main.00bad80c.js.map"
   },
   "entrypoints": [
-    "static/js/main.4ddae02e.js"
+    "static/js/main.00bad80c.js"
   ]
 }
