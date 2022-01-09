@@ -15,6 +15,13 @@ export default createGlobalStyle`
     }
 
     body {
+
         background-color: ${props => props.theme.mainBackground};
+    }
+
+    .App {
+        height: 100vh;
+        display: grid;
+        place-items: center;
     }
 `;

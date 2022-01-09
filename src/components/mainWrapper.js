@@ -7,10 +7,13 @@ const MainWrapperStyled = styled.div`
     min-width: 20%;
     max-width: 400px;
     display: grid;
-    margin: 3% auto 0;
     grid-template-rows: auto auto auto;
     background-color: ${props => props.theme.mainBackground};
     row-gap: 20px;
+
+    @media(max-width: 500px) {
+        padding: 10px;
+    }
 `;
 
 export default function MainWrapper({changeTheme}) {

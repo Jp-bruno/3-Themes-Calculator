@@ -1,6 +1,7 @@
 {
   "name": "react-calculator",
   "version": "0.1.0",
+  "homepage": "https://jp-bruno.github.io/3-Themes-Calculator/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -12,7 +13,12 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.0"
   },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
