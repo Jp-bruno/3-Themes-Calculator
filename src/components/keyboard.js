@@ -41,30 +41,32 @@ const StyledKeyboard = styled.div`
 `;
 
 export default function Keyboard() {
+
+
     return (
         <>
             <StyledKeyboard>
                 <div className='row'>
-                    <Button value='7'/>
-                    <Button value='8'/>
-                    <Button value='9'/>
+                    <Button value='7' className='number'/>
+                    <Button value='8' className='number'/>
+                    <Button value='9' className='number'/>
                     <Button value='DEL' className='colored-type1'/>
                 </div>
                 <div className='row'>
-                    <Button value='4'/>
-                    <Button value='5'/>
-                    <Button value='6'/>
+                    <Button value='4' className='number'/>
+                    <Button value='5' className='number'/>
+                    <Button value='6' className='number'/>
                     <Button value='+' className='operator'/>
                 </div>
                 <div className='row'>
-                    <Button value='1'/>
-                    <Button value='2'/>
-                    <Button value='3'/>
+                    <Button value='1' className='number'/>
+                    <Button value='2' className='number'/>
+                    <Button value='3' className='number'/>
                     <Button value='-' className='operator'/>
                 </div>
                 <div className='row'>
-                    <Button value='.'/>
-                    <Button value='0'/>
+                    <Button value='.' className='dot'/>
+                    <Button value='0' className='number'/>
                     <Button value='/' className='operator'/>
                     <Button value='x' className='operator'/>
                 </div>

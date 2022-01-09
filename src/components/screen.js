@@ -21,7 +21,7 @@ export default function Screen({value}) {
     return(
         <>
             <StyledScreen>
-                <input ></input>
+                <input id="screenInput"></input>
             </StyledScreen>
         </>
     )
