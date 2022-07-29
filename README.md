@@ -6,7 +6,7 @@ Made with ReactJS + Styled Components.
 
 Live preview: https://jp-bruno.github.io/3-Themes-Calculator/
 
-###Screenshots
+### Screenshots
 
 ![alt text](https://user-images.githubusercontent.com/77502084/181803713-bd712e9f-a59f-4fbd-ba79-8e6533232750.PNG)
 ![alt text](https://user-images.githubusercontent.com/77502084/181803708-c73e8b6f-2791-4bdc-8bd0-7789a3c2e498.PNG)
